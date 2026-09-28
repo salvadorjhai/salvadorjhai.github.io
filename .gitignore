@@ -1,0 +1,12 @@
+# Publish only the reviewed website files. Local screenshots, private files,
+# agent instructions, and any future workspace files stay outside the repo.
+/*
+!/index.html
+!/styles.css
+!/script.js
+!/README.md
+!/.nojekyll
+!/.gitignore
+!/assets/
+/assets/*
+!/assets/profile-photo.webp
